@@ -125,3 +125,8 @@ EXCEPTION
         RAISE NOTICE '==========================================';
 END;
 $$;
+
+
+--After creating the procedure, run it by executing:
+CALL bronze.load_bronze();
+
